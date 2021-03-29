@@ -1,0 +1,22 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "Natural language processing app for news articles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/index.js"
+  },
+  "author": "Mohamed EMad",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
